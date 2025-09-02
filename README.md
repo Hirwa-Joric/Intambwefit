@@ -1,4 +1,4 @@
-﻿# wger
+# wger
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/wger-project/wger/master/wger/core/static/images/logos/logo.png" width="100" height="100" alt="wger logo">
@@ -10,20 +10,20 @@
 </p>
 
 
-wger (ˈvɛɡɐ) is a free workout and fitness manager.
+wger ('v?g?) is a free workout and fitness manager.
 
-- 🏋️ **Custom Workout Routines** – Create flexible routines with automatic weight progression rules.
-- 📊 **Comprehensive Tracking** – Track diet plans, body weight, and custom measurements.
-- 🍽️ **Nutrition Management** – Log your calories with a food database
+- ??? **Custom Workout Routines** � Create flexible routines with automatic weight progression rules.
+- ?? **Comprehensive Tracking** � Track diet plans, body weight, and custom measurements.
+- ??? **Nutrition Management** � Log your calories with a food database
   from [Open Food Facts](https://openfoodfacts.org).
-- 📸 **Progress Gallery** – Upload and track your fitness progress with photos.
-- 📚 **Exercise Wiki** – Access and contribute to the built-in exercises.
-- 📱 **Cross-Platform Apps** – Available on Android, iOS, F-Droid, and Flathub.
-- 🐳 **Self-Hostable** – Deploy easily with Docker for full control.
-- 🌍 **Multilingual Support** – Translated by the community via Weblate.
-- 🔗 **Powerful API** – REST API for third-party integrations or automations.
-- 👥 **Multi-User Support** – Includes basic gym management features.
-- 🆓 **100% Free & Open Source** – Licensed under AGPL-3.0 or later.
+- ?? **Progress Gallery** � Upload and track your fitness progress with photos.
+- ?? **Exercise Wiki** � Access and contribute to the built-in exercises.
+- ?? **Cross-Platform Apps** � Available on Android, iOS, F-Droid, and Flathub.
+- ?? **Self-Hostable** � Deploy easily with Docker for full control.
+- ?? **Multilingual Support** � Translated by the community via Weblate.
+- ?? **Powerful API** � REST API for third-party integrations or automations.
+- ?? **Multi-User Support** � Includes basic gym management features.
+- ?? **100% Free & Open Source** � Licensed under AGPL-3.0 or later.
 
 For a live system, visit: <https://wger.de>
 
@@ -60,12 +60,12 @@ Our goal is to build an awesome and flexible fitness and nutrition manager,
 along with a comprehensive list of exercises and ingredients, all released
 under a free license.
 
-For this, we’d love your help! Whether it’s code, translations, exercises or
+For this, we�d love your help! Whether it�s code, translations, exercises or
 reporting issues and ideas, check out our
 [contribution guide](https://wger.readthedocs.io/en/latest/contributing.html)
 to get started.
 
-A huge thank you to everyone who has contributed so far! ❤️ See the full list
+A huge thank you to everyone who has contributed so far! ?? See the full list
 in [AUTHORS.md](AUTHORS.md).
 
 ## Documentation
