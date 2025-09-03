@@ -4,61 +4,69 @@
 
 "@popperjs/core@^2.11.8":
   version "2.11.8"
-
-"@types/jquery@^2.0.32":
-  version "2.0.54"
+  resolved "https://registry.yarnpkg.com/@popperjs/core/-/core-2.11.8.tgz#6b79032e760a0899cd4204710beede972a3a185f"
 
 bootstrap@5.3.7:
   version "5.3.7"
+  resolved "https://registry.yarnpkg.com/bootstrap/-/bootstrap-5.3.7.tgz#8640065036124d961d885d80b5945745e1154d90"
 
 components-font-awesome@5.9.0:
   version "5.9.0"
+  resolved "https://registry.yarnpkg.com/components-font-awesome/-/components-font-awesome-5.9.0.tgz#02242f85946f0a6ab46870547f4c54d11e94ef75"
 
 datatables.net-bs5@^2.3.3:
   version "2.3.3"
+  resolved "https://registry.yarnpkg.com/datatables.net-bs5/-/datatables.net-bs5-2.3.3.tgz#8bf3aec484a69e373f6007038eaac0cc0ef4ee15"
   dependencies:
     datatables.net "2.3.3"
     jquery ">=1.7"
 
 datatables.net@2.3.3:
   version "2.3.3"
+  resolved "https://registry.yarnpkg.com/datatables.net/-/datatables.net-2.3.3.tgz#fe4f96bdbc4cf47c8d11162a7af525ca6a3683d2"
   dependencies:
     jquery ">=1.7"
 
 desandro-matches-selector@^2.0.0:
   version "2.0.2"
+  resolved "https://registry.yarnpkg.com/desandro-matches-selector/-/desandro-matches-selector-2.0.2.tgz#717beed4dc13e7d8f3762f707a6d58a6774218e1"
 
-devbridge-autocomplete@^1.4.11:
-  version "1.4.11"
-  dependencies:
-    "@types/jquery" "^2.0.32"
-    jquery ">=1.7"
+devbridge-autocomplete@^1.5.0:
+  version "1.5.0"
+  resolved "https://registry.yarnpkg.com/devbridge-autocomplete/-/devbridge-autocomplete-1.5.0.tgz#b630ef596f00ab511e2d41ae91788368e968ee01"
 
 ev-emitter@^1.0.0:
   version "1.1.1"
+  resolved "https://registry.yarnpkg.com/ev-emitter/-/ev-emitter-1.1.1.tgz#8f18b0ce5c76a5d18017f71c0a795c65b9138f2a"
 
 fizzy-ui-utils@^2.0.0:
   version "2.0.7"
+  resolved "https://registry.yarnpkg.com/fizzy-ui-utils/-/fizzy-ui-utils-2.0.7.tgz#7df45dcc4eb374a08b65d39bb9a4beedf7330505"
   dependencies:
     desandro-matches-selector "^2.0.0"
 
 get-size@^2.0.2:
   version "2.0.3"
+  resolved "https://registry.yarnpkg.com/get-size/-/get-size-2.0.3.tgz#54a1d0256b20ea7ac646516756202769941ad2ef"
 
 htmx.org@^2.0.5:
-  version "2.0.5"
+  version "2.0.6"
+  resolved "https://registry.yarnpkg.com/htmx.org/-/htmx.org-2.0.6.tgz#42573483c72112e7e332dfe93043cd0eb32cda01"
 
-jquery@^3.7.1, jquery@>=1.7:
+jquery@>=1.7, jquery@^3.7.1:
   version "3.7.1"
+  resolved "https://registry.yarnpkg.com/jquery/-/jquery-3.7.1.tgz#083ef98927c9a6a74d05a6af02806566d16274de"
 
 masonry-layout@^4.2.2:
   version "4.2.2"
+  resolved "https://registry.yarnpkg.com/masonry-layout/-/masonry-layout-4.2.2.tgz#d57b44af13e601bfcdc423f1dd8348b5524de348"
   dependencies:
     get-size "^2.0.2"
     outlayer "^2.1.0"
 
 outlayer@^2.1.0:
   version "2.1.1"
+  resolved "https://registry.yarnpkg.com/outlayer/-/outlayer-2.1.1.tgz#29863b6de10ea5dadfffcadfa0d728907387e9a2"
   dependencies:
     ev-emitter "^1.0.0"
     fizzy-ui-utils "^2.0.0"
@@ -66,3 +74,4 @@ outlayer@^2.1.0:
 
 popper.js@^1.16.1:
   version "1.16.1"
+  resolved "https://registry.yarnpkg.com/popper.js/-/popper.js-1.16.1.tgz#2a223cb3dc7b6213d740e40372be40de43e65b1b"
