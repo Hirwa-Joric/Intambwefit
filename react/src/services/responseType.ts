@@ -1,0 +1,39 @@
+import { Exercise } from "components/Exercises/models/exercise";
+
+export interface ResponseType<T> {
+    count: number,
+    next: number | null,
+    previous: number | null,
+    results: T[]
+}
+
+export interface ExerciseSearchResponse {
+    value: string,
+    data: {
+        id: number,
+        base_id: number,
+        name: string,
+        category: string,
+        image: string | null,
+        image_thumbnail: string | null,
+    },
+    exercise?: Exercise
+}
+
+export interface ExerciseSearchType {
+    suggestions: ExerciseSearchResponse[];
+}
+
+export interface IngredientSearchResponse {
+    value: string,
+    data: {
+        id: number,
+        name: string,
+        image: string | null,
+        image_thumbnail: string | null,
+    }
+}
+
+export interface IngredientSearchType {
+    suggestions: IngredientSearchResponse[];
+}
