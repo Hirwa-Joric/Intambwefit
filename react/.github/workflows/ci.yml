@@ -1,0 +1,37 @@
+name: Continuous Integration
+
+on:
+  push:
+    branches:
+      - '*'
+  pull_request:
+    branches:
+      - master
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+
+      - name: Enable Corepack
+        run: corepack enable
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: 'yarn'
+
+      - name: Install modules
+        run: |
+          yarn config set --home enableTelemetry 0
+          yarn config set nodeLinker node-modules
+          yarn
+
+      - name: Run tests
+        run: yarn test --coverage --collectCoverageFrom='!src/pages/**/*.tsx'
+
+      - name: Coveralls
+        uses: coverallsapp/github-action@master
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
